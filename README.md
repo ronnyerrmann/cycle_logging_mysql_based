@@ -1,7 +1,9 @@
-# cycle_logging
+# cycle_logging_mysql_based
 App to log daily exercise and and to analyse the data.
 
 One could just keep using a spreadsheet, or alternatively practise to use some other tools: MySQL, Python, Java, PHP, Javascript, Django, ...
+
+An extended version, with Django as base instead of MySQL is https://github.com/ronnyerrmann/cycle_logging
 
 ### Create the database
 As root:
@@ -113,6 +115,8 @@ python manage.py test
 ```
 
 The website runs on a test server: [Cycle Results (Django)](http://ronnyerrmann.ddns.net:8000).
+
+A more advanced version of the Django solution can be found under: https://github.com/ronnyerrmann/cycle_logging
 
 ### Learnings
 * Be more consistent with your names: instead of using "MonthKM" or "YearDays" for the front end it is easier to use the same column names for each table.
